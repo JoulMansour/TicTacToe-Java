@@ -20,4 +20,5 @@ From the repo root:
 javac -d bin src/*.java
 ```
 ##Run
+```bash
 java -cp bin Tournament <rounds> <size> <winStreak> <renderer> <player1> <player2>
