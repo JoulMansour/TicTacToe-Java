@@ -1,0 +1,13 @@
+joul
+325906121
+
+Q1) The whatever player chooses each time a random cell to mark, if the
+cell chosen is illegal the process is repeated until a legal cell is chosen.
+The naive player chooses the cells in a pattern such that for each row he chooses
+all the columns in order and then moves on to the next row in order. The smart player chooses
+the third column every time with an 80 percent chance, that way the winning percentage
+of the smart player is guaranteed to be at least 80 percent.
+Q2) By using polymorphism the same methods can be called on different player (or renderer)
+types with each class providing its own behavior. This makes extending the game by adding
+new players easy as there is no need to change the original code. Furthermore the code is
+easily maintained since changing a specific player does not affect the rest of the code.
