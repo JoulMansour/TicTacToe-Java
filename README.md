@@ -13,12 +13,10 @@ A Java implementation of Tic-Tac-Toe that can run **single games or multi-round 
 - Renderers:
   - `console` (prints the board)
   - `void` (no output; useful for fast tournaments) :contentReference[oaicite:5]{index=5}
-## Build
-From the repo root:
-
-```bash
-javac -d bin src/*.java
-```
-##Run
-```bash
-java -cp bin Tournament <rounds> <size> <winStreak> <renderer> <player1> <player2>
+  - 
+## How to Run
+1. Clone this repository.
+2. Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
+3. Run the `main` method located in `Tournament`.
+4. Provide command-line arguments:
+   `<rounds> <size> <winStreak> <renderer> <player1> <player2>`
